@@ -13,12 +13,17 @@
 //   };
 
 //   export default First;
+import logo from "../Assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <p>Navbar</p>
-    </div>
+    <>
+      <div className="mx-auto bg-blue-950">
+        <div>
+          <img src={logo} alt="" />
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
     <>
-      <h3>Footer</h3>
+      <div className="flex justify-center items-center w-[2000px] h-16 bg-[#1C2336]">
+        <p className="text-white">© 2023 Alifftwa. All rights reserved.</p>
+      </div>
     </>
   );
 };

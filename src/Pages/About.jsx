@@ -1,8 +1,13 @@
-import Second from "../Components/Footer";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const About = () => {
   return (
-    <Second />
+    <>
+      <Navbar />
+      <h1>ABOUT</h1>
+      <Footer />
+    </>
   );
 };
 
